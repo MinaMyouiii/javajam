@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>JavaJam Coffee House Menu</title>
+        <link rel="stylesheet" href="javajam.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House Jobs</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at Javajam</h2>
+            <p>Want to work at JavaJam?</p>
+            <form name="experience" method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">Name:</label><input type="text" id="myName" name="myName" required="required">
+                <label for="myEmail">Email:</label><input type="text" id="myEmail" name="myEmail" required="required">
+                <!--
+                <label for="myBirthday">Birthday:</laben><input type="date" id="myBirthday" name="myBirthday">
+                <label for="myPassword">Password:</label><input type="hidden" id="myPassword" name="myPassword"> -->
+                <label for="myExperience">Experience:</label><textarea id="myExperience" name="myExperience" rows="2" cols="20" requried="required"></textarea>
+                <input type="submit" value="Apply Now">
+<!--
+                Choose the browser you use:
+                <input type="checkbox" name="IE" id="IE">Internet Explorer<br>
+                <input type="checkbox" name="Edge" id="Edge">Edge <br>
+                <input type="checkbox" name="Edge" id="Chrome">Chrome<br>
+
+                Choose the browser you use:
+                <input type="radio" name="IE" id="IE">Internet Explorer<br>
+                <input type="radio" name="Edge" id="Edge">Edge <br>
+                <input type="radio" name="Edge" id="Chrome">Chrome<br>
+
+                Choose the browser you use:
+                <select size="1" name="browser" id="browser">
+                    <option value="IE">Internet Explorer</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Chrome">Chrome</option>
+                </select>
+            -->
+            </form>
+        </main>
+
+        <footer>
+            Copyright &copy; 2022 JavaJam Coffee House<br>
+            <a href="mailto:lew@yk.com">lewyk</a>
+        </footer>
+    </div>
+    </body>
+</html>
